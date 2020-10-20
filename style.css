@@ -1,0 +1,106 @@
+@import url(https://realtechnerd.github.io/button.css/style.css);
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&family=Source+Code+Pro&display=swap");
+
+body {
+    background-color: #333;
+    font-family: Manrope;
+}
+nav {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.navbar-nav > li > .dropdown-menu { background-color: black; color: #f1f1f1;}
+.dropdown-header {
+    color: white;
+}
+.dropdown-item {
+    color: #d3d3d3;
+    transition: 0.2s;
+}
+.dropdown-item:hover {
+    background-color: #333;
+    color: #d3d3d3;
+}
+.jumbotron-fluid {
+    background-image: linear-gradient(to bottom right, #3498DB, lightgreen);
+    color: #333;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.my-4 {
+    border-color: #d3d3d3;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: lightblue;
+    transition: 0.2s; 
+  }
+
+.about {
+    width: 800px !important;
+    background-color: #333;
+    color: #d3d3d3;
+    font-size: 15pt;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.jumbotron {
+    font-family: Manrope !important;
+}
+body {
+    background-color: #f1f1f1;
+}
+.container {
+    font-family: Manrope;
+}
+.card {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) !important;
+}
+.dropdown-menu a {
+    text-decoration: none !important;
+}
+.projects iframe {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75) !important;
+}
+.buttoncss {
+    background: linear-gradient(to bottom left, #ffc107,#17a2b8);
+    font-family: Manrope !important;
+}
+.codeh {
+    font-family: Source Code Pro !important;
+}
+code {
+    font-size: inherit;
+}   
+.head {
+    font-size: 1.5em;
+}
+.para {
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
+    font-family: Inter;
+}
+.steps {
+    font-size: 20px;
+}
+.docnav {
+    font-family: Inter !important;
+}
+.doclink {
+    color: #000 !important;
+}
+.limeButton {
+    background-color: #bff542;
+}
+.limeButton:hover {
+    background-color: #b0fc00;
+}
+.error {
+    text-align: center;
+}
+.erti {
+    margin-top: 100px;
+    font-size: 40pt;
+}
