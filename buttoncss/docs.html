@@ -1,818 +1,849 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>button.css Docs</title>
+
+<head>
+    <title>button.css Docs</title>
     <!--SCRIPTS-->
     <script src="../assets/scripting.js"></script>
-    <link rel="stylesheet" href='../style.css'> 
+    <link rel="stylesheet" href='../style.css'>
+    <script src="https://cdn.jsdelivr.net/gh/realtechnerd/deprecated-banner@master/deprecated.js"></script>
     <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
     <link rel='icon' href='../assets/miscimages/rtnlog.jpeg'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <!--CODE HIGHLIGHTING-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- and it's easy to individually load additional languages -->
     <script charset="UTF-8"
-    src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/go.min.js"></script>
+        src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/go.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175443294-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'UA-175443294-1');
+        gtag('config', 'UA-175443294-1');
     </script>
-  </head>
-    <body onload="includeHTML();w3CodeColor();load();">
-        <div class='my-0'w3-include-html="../assets/navbar.html"></div>
-        <div class="sticky-top" w3-include-html="navbar.html"></div>
-      <br id="docs">
+</head>
 
-        <div class='container docssc'>
-            <h1>Docs</h1>
-            <p id="introduction" class="head">Learn button.css.</p>
-            <hr id="introduction">
+<body onload="includeHTML();w3CodeColor();load();">
+    <div class='my-0' w3-include-html="../assets/navbar.html"></div>
+    <div class="sticky-top" w3-include-html="navbar.html"></div>
+    <br id="docs">
+
+    <div class='container docssc'>
+        <h1>Docs</h1>
+        <p id="introduction" class="head">Learn button.css.</p>
+        <hr id="introduction">
+        <br>
+        <div class="container">
+            <h2>Introduction</h2>
+            <p class="head">What is button.css?</p>
+            <p class="para">
+                Button.css is <a href="https://en.wikipedia.org/wiki/CSS_framework" target="_blank">CSS Library</a> that
+                can be use to style buttons. The difference between using pure CSS and using button.css is that this
+                library is easier and quicker to use.
+                Pure CSS requires you to do all the tedious work of styling while our library only requires you to apply
+                a couple classes to style a button.
+                If you aren't happy with the current options, you can also style your own buttons with less CSS code.
+                The great thing about button.css is that it's open source, so the community can contribute to the
+                project.
+                This project is licensed under the MIT license.
+                Alright, so now that that's out of the way, let's dive into the documentation.
+            </p>
+        </div>
+        <div class="container">
+            <br id="quickstart">
+            <hr id="quickstart">
+            <br>
+        </div>
+
+        <div class='container'>
+            <h2>Quick Start</h2>
+            <br>
+            <h4>Place this in the <code class="jsHigh">&lt;head&gt;</code> section of your HTML file.</h4>
+            <div class="codeh w3-code htmlHigh">
+                &lt;link rel='stylesheet' href="https://realtechnerd.github.io/button.css/style.css"/&gt;
+            </div>
+            <br>
+            <h4>CSS <code class="codeh cssHigh">@import</code></h4>
+            <h4>You can place this in the main CSS file.</h4>
+            <div class="codeh w3-code cssHigh">
+                @import url(https://realtechnerd.github.io/button.css/style.css);
+            </div>
             <br>
             <div class="container">
-                <h2>Introduction</h2>
-                <p class="head">What is button.css?</p>
-                <p class="para">
-                    Button.css is <a href="https://en.wikipedia.org/wiki/CSS_framework" target="_blank">CSS Library</a> that can be use to style buttons. The difference between using pure CSS and using button.css is that this library is easier and quicker to use. 
-                    Pure CSS requires you to do all the tedious work of styling while our library only requires you to apply a couple classes to style a button.
-                    If you aren't happy with the current options, you can also style your own buttons with less CSS code.
-                    The great thing about button.css is that it's open source, so the community can contribute to the project. 
-                    This project is licensed under the MIT license. 
-                    Alright, so now that that's out of the way, let's dive into the documentation.
-                </p>
+                <hr>
             </div>
-            <div class="container">
-                <br id="quickstart">
-                <hr id="quickstart">
-                <br>
+            <br>
+            <h4>For faster load times, you can use the CDN</h4>
+            <h4>Place this in the <code class="htmlHigh">&lt;head&gt;</code> section of your HTML file.</h4>
+            <div class="codeh w3-code htmlHigh">
+                &lt;link href="https://cdn.jsdelivr.net/gh/realtechnerd/button.css@master/style.min.css"
+                crossorigin="anonymous"/&gt;
             </div>
+            <br>
+            <h4>CSS <code class="codeh cssHigh">@import</code></h4>
+            <h4>You can place this in the main CSS file.</h4>
+            <div class="codeh w3-code cssHigh">
+                @import url(https://cdn.jsdelivr.net/gh/realtechnerd/button.css@master/style.min.css);
+            </div>
+        </div>
+        <div class="container">
+            <br id="syntax">
+            <hr id="syntax">
+            <br>
+        </div>
+        <div class="container">
+            <h2>Syntax</h2>
+            <p class="head">It's pretty easy.</p>
+            <p class="para">Button.css' syntax is very simple.</p>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="<i>class effect</i>"&gt;&lt;/button&gt;
+            </div>
+            <p class="para">Effects are optional, and the buttons will still work without effects.
+                Order in which classes are written in do not matter as well.
+                Example: I can write <code
+                    class="codeh htmlHigh">&lt;button class="<i>effect class</i>"&gt;&lt;/button&gt;</code> and it will
+                work perfectly.</p>
+            <p class="para">You can also use <code class="codeh htmlHigh">&lt;a&gt;</code>, Anchor tags with these
+                classes.</p>
+            <div class="codeh w3-code htmlHigh">
+                &lt;a class="<i>class effect</i>" href="<i>#</i>"&gt;A Link!&lt;/a&gt;
+            </div>
+        </div>
+        <div class="container">
+            <br id="bclass">
+            <hr id="bclass">
+            <br>
+        </div>
+        <div class="container">
+            <h2>The <code class="codeh jsHigh">.b</code> class</h2>
+            <p class="head">Create your own buttons with less CSS code.</p>
+            <ul class="steps">
+                <li>The <code class="codeh cssHigh">.b</code> class can be used to create a white canvas for a button.
+                    Padding and border-radius are automatically set.</li>
+                <li>The buttons on button.css use the <code class="codeh cssHigh">.b</code> class as a base for buttons.
+                </li>
+                <li>There are 2 ways to implement this when creating a new button.</li>
+            </ul>
 
-            <div class='container'>
-                <h2>Quick Start</h2>
+            A button using only the <code class="codeh cssHigh">.b</code> class will be rendered out like this:
+            <button class="b">button</button>
+            <br>
+            It's an empty canvas, but includes the essentials such as padding and border-radius.
+            <br>
+            <br>
+            <h3>Variation 1</h3>
+            <p>Using the class in a HTML tag.</p>
+            <p class="para">Let's create a new class called <code class="cssHigh">.limeButton</code> for a new button.
+            </p>
+            <div class="codeh w3-code cssHigh">
+                .limeButton {
                 <br>
-                <h4>Place this in the <code class="jsHigh">&lt;head&gt;</code> section of your HTML file.</h4>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;link rel='stylesheet' href="https://realtechnerd.github.io/button.css/style.css"/&gt;
-                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;background-color: #bff542;
                 <br>
-                <h4>CSS <code class="codeh cssHigh">@import</code></h4>
-                <h4>You can place this in the main CSS file.</h4>
-                <div class="codeh w3-code cssHigh">
-                    @import url(https://realtechnerd.github.io/button.css/style.css);
-                </div>
-                <br>
-                <div class="container">
-                    <hr>
-                </div>
-                <br>
-                <h4>For faster load times, you can use the CDN</h4>
-                <h4>Place this in the <code class="htmlHigh">&lt;head&gt;</code> section of your HTML file.</h4>
-                <div class="codeh w3-code htmlHigh">
-                  &lt;link href="https://cdn.jsdelivr.net/gh/realtechnerd/button.css@master/style.min.css" crossorigin="anonymous"/&gt;
-                </div>
-                <br>
-                <h4>CSS <code class="codeh cssHigh">@import</code></h4>
-                <h4>You can place this in the main CSS file.</h4>
-                <div class="codeh w3-code cssHigh">
-                    @import url(https://cdn.jsdelivr.net/gh/realtechnerd/button.css@master/style.min.css);
-                </div>
+                }
             </div>
-            <div class="container">
-                <br id="syntax">
-                <hr id="syntax">
+            <p class="para">And let's add a <code class="cssHigh">:hover</code> property.</p>
+            <div class="codeh w3-code cssHigh">
+                .limeButton {
                 <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;background-color: #bff542;
+                <br>
+                }
+                <br>
+                .limeButton:hover {
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;background-color: #b0fc00;
+                <br>
+                }
             </div>
-            <div class="container">
-                <h2>Syntax</h2>
-                <p class="head">It's pretty easy.</p>
-                <p class="para">Button.css' syntax is very simple.</p>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;button class="<i>class effect</i>"&gt;&lt;/button&gt;
-                </div>
-                <p class="para">Effects are optional, and the buttons will still work without effects.
-                Order in which classes are written in do not matter as well. 
-                Example: I can write <code class="codeh htmlHigh">&lt;button class="<i>effect class</i>"&gt;&lt;/button&gt;</code> and it will work perfectly.</p> 
-                <p class="para">You can also use <code class="codeh htmlHigh">&lt;a&gt;</code>, Anchor tags with these classes.</p>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;a class="<i>class effect</i>" href="<i>#</i>"&gt;A Link!&lt;/a&gt;
-                </div>
+            <p class="para">Now, to use my buttons, my code will be written like this:</p>
+            <div class="codeh htmlHigh w3-code">
+                &lt;button class="b limeButton"&gt;Lime Button!&lt;/button&gt;
             </div>
-            <div class="container">
-                <br id="bclass">
-                <hr id="bclass">
+            <p class="para">As you can see, I have included the <code class="codeh cssHigh">.b</code> class as well.</p>
+            <p class="para">My button will be rendered out like this:</p>
+            <button class="b limeButton">My New Button!</button>
+            <br>
+            <br>
+            <h3>Variation 2</h3>
+            <p>Using the class with SASS.</p>
+            <p class="para">If you're unfamiliar with SASS, it's an <a href="https://sass-lang.com/"
+                    target="_blank">open-source CSS extension</a> that adds more funtionality to CSS.
+                You can write in SASS, and it will automatically compile to CSS.
+            </p>
+            <p class="para">To integrate the <code class="codeh cssHigh">.b</code> class in SASS, you can use the <code
+                    class="codeh cssHigh">@extend</code> property.</p>
+            <p class="para">Our code will be written like this:</p>
+            <div class="codeh w3-code cssHigh">
+                .limeButton {
                 <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;@extend .b;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;background-color: #bff542;
+                <br>
+                }
+                <br>
+                .limeButton:hover {
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;background-color: #b0fc00;
+                <br>
+                }
             </div>
-            <div class="container">
-                <h2>The <code class="codeh jsHigh">.b</code> class</h2>
-                <p class="head">Create your own buttons with less CSS code.</p>
-                <ul class="steps">
-                    <li>The <code class="codeh cssHigh">.b</code> class can be used to create a white canvas for a button. Padding and border-radius are automatically set.</li>
-                    <li>The buttons on button.css use the <code class="codeh cssHigh">.b</code> class as a base for buttons.</li>
-                    <li>There are 2 ways to implement this when creating a new button.</li>
-                </ul>
-
-                A button using only the <code class="codeh cssHigh">.b</code> class will be rendered out like this:
-                <button class="b">button</button>
-                <br>
-                It's an empty canvas, but includes the essentials such as padding and border-radius.
-                <br>
-                <br>
-                <h3>Variation 1</h3>
-                <p>Using the class in a HTML tag.</p>
-                <p class="para">Let's create a new class called <code class="cssHigh">.limeButton</code> for a new button.</p>
-                <div class="codeh w3-code cssHigh">
-                    .limeButton {
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;background-color: #bff542;
-                    <br>
-                    }
-                </div>
-                <p class="para">And let's add a <code class="cssHigh">:hover</code>  property.</p>
-                <div class="codeh w3-code cssHigh">
-                    .limeButton {
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;background-color: #bff542;
-                    <br>
-                    }
-                    <br>
-                    .limeButton:hover {
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;background-color: #b0fc00;
-                    <br>
-                    }
-                </div>
-                <p class="para">Now, to use my buttons, my code will be written like this:</p>
-                <div class="codeh htmlHigh w3-code">
-                    &lt;button class="b limeButton"&gt;Lime Button!&lt;/button&gt;
-                </div>
-                <p class="para">As you can see, I have included the <code class="codeh cssHigh">.b</code> class as well.</p>
-                <p class="para">My button will be rendered out like this:</p>
-                <button class="b limeButton">My New Button!</button>
-                <br>
-                <br>
-                <h3>Variation 2</h3>
-                <p>Using the class with SASS.</p>
-                <p class="para">If you're unfamiliar with SASS, it's an <a href="https://sass-lang.com/" target="_blank">open-source CSS extension</a> that adds more funtionality to CSS.
-                    You can write in SASS, and it will automatically compile to CSS.
-                </p>
-                <p class="para">To integrate the <code class="codeh cssHigh">.b</code> class in SASS, you can use the <code class="codeh cssHigh">@extend</code> property.</p>
-                <p class="para">Our code will be written like this:</p>
-                <div class="codeh w3-code cssHigh">
-                    .limeButton {
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;@extend .b;
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;background-color: #bff542;
-                    <br>
-                    }
-                    <br>
-                    .limeButton:hover {
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;background-color: #b0fc00;
-                    <br>
-                    }
-                </div>
-                <p class="para">Now, to use my buttons, my code will be written like this:</p>
-                <div class="codeh htmlHigh w3-code">
-                    &lt;button class="limeButton"&gt;Lime Button!&lt;/button&gt;
-                </div>
-                <p class="para">Since I used the <code class="codeh cssHigh">@extend</code> property, I don't need to include the <code class="codeh cssHigh">.b</code> class in my HTML tags anymore.
+            <p class="para">Now, to use my buttons, my code will be written like this:</p>
+            <div class="codeh htmlHigh w3-code">
+                &lt;button class="limeButton"&gt;Lime Button!&lt;/button&gt;
+            </div>
+            <p class="para">Since I used the <code class="codeh cssHigh">@extend</code> property, I don't need to
+                include the <code class="codeh cssHigh">.b</code> class in my HTML tags anymore.
                 My button will still be rendered like this:
-                </p>
-                <button class="b limeButton">My New Button!</button>
-            </div>
-            <div class="container">
-                <br id="buttonclasses">
-                <hr id="buttonclasses">
+            </p>
+            <button class="b limeButton">My New Button!</button>
+        </div>
+        <div class="container">
+            <br id="buttonclasses">
+            <hr id="buttonclasses">
+            <br>
+        </div>
+        <div class="container">
+            <h1>Button Classes</h1>
+            <div class="head">These are the main classes used in button.css buttons. Without these classes, styling
+                won't work.</div>
+        </div>
+        <div class="container">
+            <br id="regularbuttons">
+            <hr id="regularbuttons">
+            <br>
+        </div>
+        <div class="container">
+            <h2>Regular Buttons</h2>
+            <p class="head">The default style of buttons.</p>
+            <button class="bprimary" href="https://realtechnerd.github.io">Primary</button>
+            <button class="bsecondary">Secondary</button>
+            <button class="bsuccess">Success</button>
+            <button class="bdanger">Danger</button>
+            <button class="bwarning">Warning</button>
+            <button class="binfo">Info</button>
+            <button class="blight">Light</button>
+            <button class="bdark">Dark</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="bprimary"&gt;Primary&lt;/button&gt;
                 <br>
-            </div>
-            <div class="container">
-                <h1>Button Classes</h1>
-                <div class="head">These are the main classes used in button.css buttons. Without these classes, styling won't work.</div>
-            </div>
-            <div class="container">
-                <br id="regularbuttons">
-                <hr id="regularbuttons">
+                &lt;button class="bsecondary"&gt;Secondary&lt;/button&gt;
                 <br>
-            </div>
-            <div class="container">
-                <h2>Regular Buttons</h2>
-                    <p class="head">The default style of buttons.</p>
-                    <button class="bprimary" href="https://realtechnerd.github.io">Primary</button>
-                    <button class="bsecondary">Secondary</button>
-                    <button class="bsuccess">Success</button>
-                    <button class="bdanger">Danger</button>
-                    <button class="bwarning">Warning</button>
-                    <button class="binfo">Info</button>
-                    <button class="blight">Light</button>
-                    <button class="bdark">Dark</button>
-                    <div class="codeh w3-code htmlHigh">
-                        &lt;button class="bprimary"&gt;Primary&lt;/button&gt;
-                        <br>
-                        &lt;button class="bsecondary"&gt;Secondary&lt;/button&gt;
-                        <br>
-                        &lt;button class="bsuccess"&gt;Success&lt;/button&gt;
-                        <br>
-                        &lt;button class="bdanger"&gt;Danger&lt;/button&gt;
-                        <br>
-                        &lt;button class="bwarning"&gt;Warning&lt;/button&gt;
-                        <br>
-                        &lt;button class="binfo"&gt;Info&lt;/button&gt;
-                        <br>
-                        &lt;button class="blight"&gt;Light&lt;/button&gt;
-                        <br>
-                        &lt;button class="bdark"&gt;Dark&lt;/button&gt;
-                    </div>
-            </div>
-            
-            <div class="container">
+                &lt;button class="bsuccess"&gt;Success&lt;/button&gt;
                 <br>
-                <hr>
+                &lt;button class="bdanger"&gt;Danger&lt;/button&gt;
                 <br>
+                &lt;button class="bwarning"&gt;Warning&lt;/button&gt;
+                <br>
+                &lt;button class="binfo"&gt;Info&lt;/button&gt;
+                <br>
+                &lt;button class="blight"&gt;Light&lt;/button&gt;
+                <br>
+                &lt;button class="bdark"&gt;Dark&lt;/button&gt;
             </div>
+        </div>
 
-            <div class="container">
-                <h2>Outlined Buttons</h2>
-                    <p class="head">The default style of buttons, but now outlined and fill up on hover.</p>
-                    <button class="oprimary" href="https://realtechnerd.github.io">Primary</button>
-                    <button class="osecondary">Secondary</button>
-                    <button class="osuccess">Success</button>
-                    <button class="odanger">Danger</button>
-                    <button class="owarning">Warning</button>
-                    <button class="oinfo">Info</button>
-                    <button class="olight">Light</button>
-                    <button class="odark">Dark</button>
-                    <div class="codeh w3-code htmlHigh">
-                        &lt;button class="oprimary"&gt;Primary&lt;/button&gt;
-                        <br>
-                        &lt;button class="osecondary"&gt;Secondary&lt;/button&gt;
-                        <br>
-                        &lt;button class="osuccess"&gt;Success&lt;/button&gt;
-                        <br>
-                        &lt;button class="odanger"&gt;Danger&lt;/button&gt;
-                        <br>
-                        &lt;button class="owarning"&gt;Warning&lt;/button&gt;
-                        <br>
-                        &lt;button class="oinfo"&gt;Info&lt;/button&gt;
-                        <br>
-                        &lt;button class="olight"&gt;Light&lt;/button&gt;
-                        <br>
-                        &lt;button class="odark"&gt;Dark&lt;/button&gt;
-                    </div>
-            </div>
-
-            <div class="container">
-                <br>
-                <hr>
-                <br>
-            </div>
-
-            <div class="container">
-                <h2>Push Buttons <sub>by Sritan Motati</sub></h2>
-                    <p class="head">Slightly resembles a real push button.</p>
-                    <button class="pbprimary" href="https://realtechnerd.github.io">Primary</button>
-                    <button class="pbsecondary">Secondary</button>
-                    <button class="pbsuccess">Success</button>
-                    <button class="pbdanger">Danger</button>
-                    <button class="pbwarning">Warning</button>
-                    <button class="pbinfo">Info</button>
-                    <button class="pblight">Light</button>
-                    <button class="pbdark">Dark</button>
-                    <div class="codeh w3-code htmlHigh">
-                        &lt;button class="pbprimary"&gt;Primary&lt;/button&gt;
-                        <br>
-                        &lt;button class="pbsecondary"&gt;Secondary&lt;/button&gt;
-                        <br>
-                        &lt;button class="pbsuccess"&gt;Success&lt;/button&gt;
-                        <br>
-                        &lt;button class="pbdanger"&gt;Danger&lt;/button&gt;
-                        <br>
-                        &lt;button class="pbwarning"&gt;Warning&lt;/button&gt;
-                        <br>
-                        &lt;button class="pbinfo"&gt;Info&lt;/button&gt;
-                        <br>
-                        &lt;button class="pblight"&gt;Light&lt;/button&gt;
-                        <br>
-                        &lt;button class="pbdark"&gt;Dark&lt;/button&gt;
-                    </div>
-            </div>
-            <div class="container">
-                <br>
-                <hr>
-                <br>
-            </div>
-            <div class="container">
-                <h2>Gradient Buttons</h2>
-                <p class="head">Regular buttons, but converted into their respected gradients.</p>
-                    <button class="lgbprimary">Primary</button>
-                    <button class="lgbsecondary">Secondary</button>
-                    <button class="lgbsuccess">Success</button>
-                    <button class="lgbdanger">Danger</button>
-                    <button class="lgbwarning">Warning</button>
-                    <button class="lgbinfo">Info</button>
-                    <button class="lgblight">Light</button>
-                    <button class="lgbdark">Dark</button>
-                    <div class="codeh w3-code htmlHigh">
-                        &lt;button class="lgbprimary"&gt;Primary&lt;/button&gt;
-                        <br>
-                        &lt;button class="lgbsecondary"&gt;Secondary&lt;/button&gt;
-                        <br>
-                        &lt;button class="lgbsuccess"&gt;Success&lt;/button&gt;
-                        <br>
-                        &lt;button class="lgbdanger"&gt;Danger&lt;/button&gt;
-                        <br>
-                        &lt;button class="lgbwarning"&gt;Warning&lt;/button&gt;
-                        <br>
-                        &lt;button class="lgbinfo"&gt;Info&lt;/button&gt;
-                        <br>
-                        &lt;button class="lgblight"&gt;Light&lt;/button&gt;
-                        <br>
-                        &lt;button class="lgbdark"&gt;Dark&lt;/button&gt;
-                    </div>
-            </div>
-            <div class="container">
-                <br>
-                <hr>
-                <br>
-            </div>
-            <div class="container">
-                <h2>Outlined Gradient Buttons</h2>
-                <p class="head">Gradient buttons that are outlined, and fill up on hover.</p>
-                <button class="olgprimary">Primary</button>
-                <button class="olgsecondary">Secondary</button>
-                <button class="olgsuccess">Success</button>
-                <button class="olgdanger">Danger</button>
-                <button class="olgwarning">Warning</button>
-                <button class="olginfo">Info</button>
-                <button class="olglight">Light</button>
-                <button class="olgdark">Dark</button>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;button class="olgprimary"&gt;Primary&lt;/button&gt;
-                    <br>
-                    &lt;button class="olgsecondary"&gt;Secondary&lt;/button&gt;
-                    <br>
-                    &lt;button class="olgsuccess"&gt;Success&lt;/button&gt;
-                    <br>
-                    &lt;button class="olgdanger"&gt;Danger&lt;/button&gt;
-                    <br>
-                    &lt;button class="olgwarning"&gt;Warning&lt;/button&gt;
-                    <br>
-                    &lt;button class="olginfo"&gt;Info&lt;/button&gt;
-                    <br>
-                    &lt;button class="olglight"&gt;Light&lt;/button&gt;
-                    <br>
-                    &lt;button class="olgdark"&gt;Dark&lt;/button&gt;
-                </div>
-            </div>
-            <div class="container">
-                <br>
-                <hr>
-                <br>
-            </div>
-            <div class="container">
-                <h2>Collection of Gradient Buttons</h2>
-                <p class="head">This collection will update with more buttons frequently, so check back later for more.</p>
-                <button class="lgbpiggypink">Piggy Pink</button>
-                <button class="lgbmegatron">MegaTron</button>
-                <button class='lgbeveningsunshine'>Evening Sunshine</button>
-                <button class="lgbendlessriver">Endless River</button>
-                <button class="lgblightocean">Light Ocean</button>
-                <button class="lgbyoda">Yoda</button>
-                <button class="lgbazurlane">Azur Lane</button>
-                <button class="lgbwitchinghour">Witching Hour</button>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;button class="lgbpiggypink"&gt;Piggy Pink&lt;/button&gt;
-                    <br>
-                    &lt;button class="lgbmegatron"&gt;MegaTron&lt;/button&gt;
-                    <br>
-                    &lt;button class="lgbeveningsunshine"&gt;Evening Sunshine&lt;/button&gt;
-                    <br>
-                    &lt;button class="lgbendlessriver"&gt;Endless River&lt;/button&gt;
-                    <br>
-                    &lt;button class="lgblightocean"&gt;Light Ocean&lt;/button&gt;
-                    <br>
-                    &lt;button class="lgbyoda"&gt;Yoda&lt;/button&gt;
-                    <br>
-                    &lt;button class="lgbazurlane"&gt;Azur Lane&lt;/button&gt;
-                    <br>
-                    &lt;button class="lgbwitchinghour"&gt;Witching Hour&lt;/button&gt;
-                </div>
-            </div>
-            <div class="container">
-                <br>
-                <hr>
-                <br>
-            </div>
-            <div class="container">
-                <h2>Toggle Switches</h2>
-                <p class="head">These only work with <code class="codeh htmlHigh">&lt;input type="checkbox"&gt;</code></p>
-                <p class="head">Toggle Switches do require a bit more code than regular buttons. These toggle switches will work exactly like a checkbox though.</p>
-                <h3>Syntax</h3>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;label class="switch"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="<i>className</i>"&gt;&lt;/span&gt;
-                        <br>
-                    &lt;/label&gt;
-                </div>
-                <p class="para">The default class, <code class="codeh cssHigh">.slider</code> will work standalone.</p>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider"></span>
-                </label>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="sprimary"></span>
-                </label>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="ssecondary"></span>
-                </label>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="ssuccess"></span>
-                </label>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="sdanger"></span>
-                </label>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="swarning"></span>
-                </label>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="sinfo"></span>
-                </label>
-            
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slight"></span>
-                </label>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="sdark"></span>
-                </label>
-                <div class="codeh w3-code htmlHigh">
-                    
-                    &lt;label class="switch"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="slider"&gt;&lt;/span&gt;
-                        <br>
-                    &lt;/label&gt;
-                    
-                    <br>
-                    <br>
-                    
-                    &lt;label class="switch"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="sprimary"&gt;&lt;/span&gt;
-                        <br>
-                    &lt;/label&gt;
-                    
-                    <br>
-                    <br>
-                    
-                    &lt;label class="switch"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="ssecondary"&gt;&lt;/span&gt;
-                        <br>
-                    &lt;/label&gt;
-                    
-                    <br>
-                    <br>
-
-                    &lt;label class="switch"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="ssuccess"&gt;&lt;/span&gt;
-                        <br>
-                    &lt;/label&gt;
-                    
-                    <br>
-                    <br>
-                    
-                    &lt;label class="switch"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="sdanger"&gt;&lt;/span&gt;
-                        <br>
-                    &lt;/label&gt;
-                    
-                    <br>
-                    <br>
-
-                    &lt;label class="switch"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="swarning"&gt;&lt;/span&gt;
-                        <br>
-                    &lt;/label&gt;
-                    
-                    <br>
-                    <br>
-
-                    &lt;label class="switch"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="sinfo"&gt;&lt;/span&gt;
-                        <br>
-                    &lt;/label&gt;
-                    
-                    <br>
-                    <br>
-
-                    &lt;label class="switch"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="slight"&gt;&lt;/span&gt;
-                        <br>
-                    &lt;/label&gt;
-                    
-                    <br>
-                    <br>
-
-                    &lt;label class="switch"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="sdark"&gt;&lt;/span&gt;
-                        <br>
-                    &lt;/label&gt;
-                </div>
-            </div>
-            <div class="container">
-                <br id="varunsbutton">
-                <hr id="varunsbutton">
-                <br>
-            </div>
-            <div class="container">
-                <h2>Varun's Slurpee Combo!</h2>
-                <p class="head">Varun's custom button.</p>
-                <button class='vbutton'>Varun's Button</button>
-                <div class="codeh w3-code htmlHigh">
-                    
-                    &lt;button class="vbutton"&gt;Varun's Button&lt;/button&gt;
-                </div>
-            </div>
-            <div class="container">
-                <br id="effectclasses">
-                <hr id="effectclasses">
-                <br>
-            </div>
-            <div class="container">
-                <h1>Effect Classes</h1>
-                <div class="head">These are the effect classes used in button.css buttons. They're used to enhance buttons. Buttons will still work without these classes.</div>
-            </div>
-            <div class="container">
+        <div class="container">
             <br>
             <hr>
             <br>
         </div>
-            <div class="container">
-                <h2>Scaling</h2>
-                <p class="head">Enlarges the button on hover and minimizes on click.</p>
-                <button class="bprimary scale">Primary</button>
-                <button class="bsecondary scale">Secondary</button>
-                <button class="bsuccess scale">Success</button>
-                <button class="bdanger scale">Danger</button>
-                <button class="bwarning scale">Warning</button>
-                <button class="binfo scale">Info</button>
-                <button class="blight scale">Light</button>
-                <button class="bdark scale">Dark</button>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;button class="bprimary scale"&gt;Primary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsecondary scale"&gt;Secondary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsuccess scale"&gt;Success&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdanger scale"&gt;Danger&lt;/button&gt;
-                    <br>
-                    &lt;button class="bwarning scale"&gt;Warning&lt;/button&gt;
-                    <br>
-                    &lt;button class="binfo scale"&gt;Info&lt;/button&gt;
-                    <br>
-                    &lt;button class="blight scale"&gt;Light&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdark scale"&gt;Dark&lt;/button&gt;
-                </div>
-            </div>
-            <div class="container">
+
+        <div class="container">
+            <h2>Outlined Buttons</h2>
+            <p class="head">The default style of buttons, but now outlined and fill up on hover.</p>
+            <button class="oprimary" href="https://realtechnerd.github.io">Primary</button>
+            <button class="osecondary">Secondary</button>
+            <button class="osuccess">Success</button>
+            <button class="odanger">Danger</button>
+            <button class="owarning">Warning</button>
+            <button class="oinfo">Info</button>
+            <button class="olight">Light</button>
+            <button class="odark">Dark</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="oprimary"&gt;Primary&lt;/button&gt;
                 <br>
-                <hr>
+                &lt;button class="osecondary"&gt;Secondary&lt;/button&gt;
                 <br>
-            </div>
-            <div class="container">
-                <h2>Sizing</h2>
-                <p class="head">Change the size of the buttons.</p>
-                <button class="bprimary bxlg">Extra Large - .bxlg</button>
-                <button class="bprimary blg">Large - .blg</button>
-                <button class="bprimary">Regular - No extra class</button>
-                <button class="bprimary bsm">Small - .bsm</button>
-                <button class="bprimary bxsm">Extra Small - .bxsm</button>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;button class="bprimary bxlg"&gt;Extra Large - .bxlg&lt;/button&gt;
-                    <br>
-                    &lt;button class="bprimary blg"&gt;Large - .blg&lt;/button&gt;
-                    <br>
-                    &lt;button class="bprimary"&gt;Regular - No extra class&lt;/button&gt;
-                    <br>
-                    &lt;button class="bprimary bsm"&gt;Small - .bsm&lt;/button&gt;
-                    <br>
-                    &lt;button class="bprimary bxsm"&gt;Extra Small - .bxsm&lt;/button&gt;
-                </div>
-            </div>
-            <div class="container">
+                &lt;button class="osuccess"&gt;Success&lt;/button&gt;
                 <br>
-                <hr>
+                &lt;button class="odanger"&gt;Danger&lt;/button&gt;
                 <br>
-            </div>
-            <div class="container">
-                <h2>Border Radius</h2>
-                <p class="head">Less Border Radius</p>
-                <button class="bprimary lb">Primary</button>
-                <button class="bsecondary lb">Secondary</button>
-                <button class="bsuccess lb">Success</button>
-                <button class="bdanger lb">Danger</button>
-                <button class="bwarning lb">Warning</button>
-                <button class="binfo lb">Info</button>
-                <button class="blight lb">Light</button>
-                <button class="bdark lb">Dark</button>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;button class="bprimary lb"&gt;Primary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsecondary lb"&gt;Secondary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsuccess lb"&gt;Success&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdanger lb"&gt;Danger&lt;/button&gt;
-                    <br>
-                    &lt;button class="bwarning lb"&gt;Warning&lt;/button&gt;
-                    <br>
-                    &lt;button class="binfo lb"&gt;Info&lt;/button&gt;
-                    <br>
-                    &lt;button class="blight lb"&gt;Light&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdark lb"&gt;Dark&lt;/button&gt;
-                </div>
-                <p class="head">Lesser Border Radius</p>
-                <button class="bprimary lb1">Primary</button>
-                <button class="bsecondary lb1">Secondary</button>
-                <button class="bsuccess lb1">Success</button>
-                <button class="bdanger lb1">Danger</button>
-                <button class="bwarning lb1">Warning</button>
-                <button class="binfo lb1">Info</button>
-                <button class="blight lb1">Light</button>
-                <button class="bdark lb1">Dark</button>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;button class="bprimary lb1"&gt;Primary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsecondary lb1"&gt;Secondary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsuccess lb1"&gt;Success&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdanger lb1"&gt;Danger&lt;/button&gt;
-                    <br>
-                    &lt;button class="bwarning lb1"&gt;Warning&lt;/button&gt;
-                    <br>
-                    &lt;button class="binfo lb1"&gt;Info&lt;/button&gt;
-                    <br>
-                    &lt;button class="blight lb1"&gt;Light&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdark lb1"&gt;Dark&lt;/button&gt;
-                </div>
-            </div>
-            <div class="container">
+                &lt;button class="owarning"&gt;Warning&lt;/button&gt;
                 <br>
-                <hr>
+                &lt;button class="oinfo"&gt;Info&lt;/button&gt;
                 <br>
-            </div>
-            <div class="container">
-                <h2>Shadow Buttons</h2>
-                <p class="head">Add a shadow on your buttons</p>
-                <button class="bprimary sha">Primary</button>
-                <button class="bsecondary sha">Secondary</button>
-                <button class="bsuccess sha">Success</button>
-                <button class="bdanger sha">Danger</button>
-                <button class="bwarning sha">Warning</button>
-                <button class="binfo sha">Info</button>
-                <button class="blight sha">Light</button>
-                <button class="bdark sha">Dark</button>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;button class="bprimary sha"&gt;Primary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsecondary sha"&gt;Secondary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsuccess sha"&gt;Success&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdanger sha"&gt;Danger&lt;/button&gt;
-                    <br>
-                    &lt;button class="bwarning sha"&gt;Warning&lt;/button&gt;
-                    <br>
-                    &lt;button class="binfo sha"&gt;Info&lt;/button&gt;
-                    <br>
-                    &lt;button class="blight sha"&gt;Light&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdark sha"&gt;Dark&lt;/button&gt;
-                </div>
-                <p class="head">More Shadows</p>
-                <button class="bprimary shalg">Primary</button>
-                <button class="bsecondary shalg">Secondary</button>
-                <button class="bsuccess shalg">Success</button>
-                <button class="bdanger shalg">Danger</button>
-                <button class="bwarning shalg">Warning</button>
-                <button class="binfo shalg">Info</button>
-                <button class="blight shalg">Light</button>
-                <button class="bdark shalg">Dark</button>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;button class="bprimary shalg"&gt;Primary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsecondary shalg"&gt;Secondary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsuccess shalg"&gt;Success&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdanger shalg"&gt;Danger&lt;/button&gt;
-                    <br>
-                    &lt;button class="bwarning shalg"&gt;Warning&lt;/button&gt;
-                    <br>
-                    &lt;button class="binfo shalg"&gt;Info&lt;/button&gt;
-                    <br>
-                    &lt;button class="blight shalg"&gt;Light&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdark shalg"&gt;Dark&lt;/button&gt;
-                </div>
-                <p class="head">Less Shadows</p>
-                <button class="bprimary shasm">Primary</button>
-                <button class="bsecondary shasm">Secondary</button>
-                <button class="bsuccess shasm">Success</button>
-                <button class="bdanger shasm">Danger</button>
-                <button class="bwarning shasm">Warning</button>
-                <button class="binfo shasm">Info</button>
-                <button class="blight shasm">Light</button>
-                <button class="bdark shasm">Dark</button>
-                <div class="codeh w3-code htmlHigh">
-                    &lt;button class="bprimary shasm"&gt;Primary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsecondary shasm"&gt;Secondary&lt;/button&gt;
-                    <br>
-                    &lt;button class="bsuccess shasm"&gt;Success&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdanger shasm"&gt;Danger&lt;/button&gt;
-                    <br>
-                    &lt;button class="bwarning shasm"&gt;Warning&lt;/button&gt;
-                    <br>
-                    &lt;button class="binfo shasm"&gt;Info&lt;/button&gt;
-                    <br>
-                    &lt;button class="blight shasm"&gt;Light&lt;/button&gt;
-                    <br>
-                    &lt;button class="bdark shasm"&gt;Dark&lt;/button&gt;
-                </div>
-            </div>
-            <div class="container">
+                &lt;button class="olight"&gt;Light&lt;/button&gt;
                 <br>
-                <hr>
-                <br>
+                &lt;button class="odark"&gt;Dark&lt;/button&gt;
             </div>
-            <div class="container">
-            <h2>Thank you for taking the time to read the documentation! You can also contribute to this project via the Github Repository.</h2>
+        </div>
+
+        <div class="container">
+            <br>
+            <hr>
+            <br>
+        </div>
+
+        <div class="container">
+            <h2>Push Buttons <sub>by Sritan Motati</sub></h2>
+            <p class="head">Slightly resembles a real push button.</p>
+            <button class="pbprimary" href="https://realtechnerd.github.io">Primary</button>
+            <button class="pbsecondary">Secondary</button>
+            <button class="pbsuccess">Success</button>
+            <button class="pbdanger">Danger</button>
+            <button class="pbwarning">Warning</button>
+            <button class="pbinfo">Info</button>
+            <button class="pblight">Light</button>
+            <button class="pbdark">Dark</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="pbprimary"&gt;Primary&lt;/button&gt;
+                <br>
+                &lt;button class="pbsecondary"&gt;Secondary&lt;/button&gt;
+                <br>
+                &lt;button class="pbsuccess"&gt;Success&lt;/button&gt;
+                <br>
+                &lt;button class="pbdanger"&gt;Danger&lt;/button&gt;
+                <br>
+                &lt;button class="pbwarning"&gt;Warning&lt;/button&gt;
+                <br>
+                &lt;button class="pbinfo"&gt;Info&lt;/button&gt;
+                <br>
+                &lt;button class="pblight"&gt;Light&lt;/button&gt;
+                <br>
+                &lt;button class="pbdark"&gt;Dark&lt;/button&gt;
+            </div>
+        </div>
+        <div class="container">
+            <br>
+            <hr>
+            <br>
+        </div>
+        <div class="container">
+            <h2>Gradient Buttons</h2>
+            <p class="head">Regular buttons, but converted into their respected gradients.</p>
+            <button class="lgbprimary">Primary</button>
+            <button class="lgbsecondary">Secondary</button>
+            <button class="lgbsuccess">Success</button>
+            <button class="lgbdanger">Danger</button>
+            <button class="lgbwarning">Warning</button>
+            <button class="lgbinfo">Info</button>
+            <button class="lgblight">Light</button>
+            <button class="lgbdark">Dark</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="lgbprimary"&gt;Primary&lt;/button&gt;
+                <br>
+                &lt;button class="lgbsecondary"&gt;Secondary&lt;/button&gt;
+                <br>
+                &lt;button class="lgbsuccess"&gt;Success&lt;/button&gt;
+                <br>
+                &lt;button class="lgbdanger"&gt;Danger&lt;/button&gt;
+                <br>
+                &lt;button class="lgbwarning"&gt;Warning&lt;/button&gt;
+                <br>
+                &lt;button class="lgbinfo"&gt;Info&lt;/button&gt;
+                <br>
+                &lt;button class="lgblight"&gt;Light&lt;/button&gt;
+                <br>
+                &lt;button class="lgbdark"&gt;Dark&lt;/button&gt;
+            </div>
+        </div>
+        <div class="container">
+            <br>
+            <hr>
+            <br>
+        </div>
+        <div class="container">
+            <h2>Outlined Gradient Buttons</h2>
+            <p class="head">Gradient buttons that are outlined, and fill up on hover.</p>
+            <button class="olgprimary">Primary</button>
+            <button class="olgsecondary">Secondary</button>
+            <button class="olgsuccess">Success</button>
+            <button class="olgdanger">Danger</button>
+            <button class="olgwarning">Warning</button>
+            <button class="olginfo">Info</button>
+            <button class="olglight">Light</button>
+            <button class="olgdark">Dark</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="olgprimary"&gt;Primary&lt;/button&gt;
+                <br>
+                &lt;button class="olgsecondary"&gt;Secondary&lt;/button&gt;
+                <br>
+                &lt;button class="olgsuccess"&gt;Success&lt;/button&gt;
+                <br>
+                &lt;button class="olgdanger"&gt;Danger&lt;/button&gt;
+                <br>
+                &lt;button class="olgwarning"&gt;Warning&lt;/button&gt;
+                <br>
+                &lt;button class="olginfo"&gt;Info&lt;/button&gt;
+                <br>
+                &lt;button class="olglight"&gt;Light&lt;/button&gt;
+                <br>
+                &lt;button class="olgdark"&gt;Dark&lt;/button&gt;
+            </div>
+        </div>
+        <div class="container">
+            <br>
+            <hr>
+            <br>
+        </div>
+        <div class="container">
+            <h2>Collection of Gradient Buttons</h2>
+            <p class="head">This collection will update with more buttons frequently, so check back later for more.</p>
+            <button class="lgbpiggypink">Piggy Pink</button>
+            <button class="lgbmegatron">MegaTron</button>
+            <button class='lgbeveningsunshine'>Evening Sunshine</button>
+            <button class="lgbendlessriver">Endless River</button>
+            <button class="lgblightocean">Light Ocean</button>
+            <button class="lgbyoda">Yoda</button>
+            <button class="lgbazurlane">Azur Lane</button>
+            <button class="lgbwitchinghour">Witching Hour</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="lgbpiggypink"&gt;Piggy Pink&lt;/button&gt;
+                <br>
+                &lt;button class="lgbmegatron"&gt;MegaTron&lt;/button&gt;
+                <br>
+                &lt;button class="lgbeveningsunshine"&gt;Evening Sunshine&lt;/button&gt;
+                <br>
+                &lt;button class="lgbendlessriver"&gt;Endless River&lt;/button&gt;
+                <br>
+                &lt;button class="lgblightocean"&gt;Light Ocean&lt;/button&gt;
+                <br>
+                &lt;button class="lgbyoda"&gt;Yoda&lt;/button&gt;
+                <br>
+                &lt;button class="lgbazurlane"&gt;Azur Lane&lt;/button&gt;
+                <br>
+                &lt;button class="lgbwitchinghour"&gt;Witching Hour&lt;/button&gt;
+            </div>
+        </div>
+        <div class="container">
+            <br>
+            <hr>
+            <br>
+        </div>
+        <div class="container">
+            <h2>Toggle Switches</h2>
+            <p class="head">These only work with <code class="codeh htmlHigh">&lt;input type="checkbox"&gt;</code></p>
+            <p class="head">Toggle Switches do require a bit more code than regular buttons. These toggle switches will
+                work exactly like a checkbox though.</p>
+            <h3>Syntax</h3>
+            <div class="codeh w3-code htmlHigh">
+                &lt;label class="switch"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="<i>className</i>"&gt;&lt;/span&gt;
+                <br>
+                &lt;/label&gt;
+            </div>
+            <p class="para">The default class, <code class="codeh cssHigh">.slider</code> will work standalone.</p>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="sprimary"></span>
+            </label>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="ssecondary"></span>
+            </label>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="ssuccess"></span>
+            </label>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="sdanger"></span>
+            </label>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="swarning"></span>
+            </label>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="sinfo"></span>
+            </label>
+
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slight"></span>
+            </label>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="sdark"></span>
+            </label>
+            <div class="codeh w3-code htmlHigh">
+
+                &lt;label class="switch"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="slider"&gt;&lt;/span&gt;
+                <br>
+                &lt;/label&gt;
+
+                <br>
+                <br>
+
+                &lt;label class="switch"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="sprimary"&gt;&lt;/span&gt;
+                <br>
+                &lt;/label&gt;
+
+                <br>
+                <br>
+
+                &lt;label class="switch"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="ssecondary"&gt;&lt;/span&gt;
+                <br>
+                &lt;/label&gt;
+
+                <br>
+                <br>
+
+                &lt;label class="switch"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="ssuccess"&gt;&lt;/span&gt;
+                <br>
+                &lt;/label&gt;
+
+                <br>
+                <br>
+
+                &lt;label class="switch"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="sdanger"&gt;&lt;/span&gt;
+                <br>
+                &lt;/label&gt;
+
+                <br>
+                <br>
+
+                &lt;label class="switch"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="swarning"&gt;&lt;/span&gt;
+                <br>
+                &lt;/label&gt;
+
+                <br>
+                <br>
+
+                &lt;label class="switch"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="sinfo"&gt;&lt;/span&gt;
+                <br>
+                &lt;/label&gt;
+
+                <br>
+                <br>
+
+                &lt;label class="switch"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="slight"&gt;&lt;/span&gt;
+                <br>
+                &lt;/label&gt;
+
+                <br>
+                <br>
+
+                &lt;label class="switch"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox"&gt;
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="sdark"&gt;&lt;/span&gt;
+                <br>
+                &lt;/label&gt;
+            </div>
+        </div>
+        <div class="container">
+            <br id="varunsbutton">
+            <hr id="varunsbutton">
+            <br>
+        </div>
+        <div class="container">
+            <h2>Varun's Slurpee Combo!</h2>
+            <p class="head">Varun's custom button.</p>
+            <button class='vbutton'>Varun's Button</button>
+            <div class="codeh w3-code htmlHigh">
+
+                &lt;button class="vbutton"&gt;Varun's Button&lt;/button&gt;
+            </div>
+        </div>
+        <div class="container">
+            <br id="effectclasses">
+            <hr id="effectclasses">
+            <br>
+        </div>
+        <div class="container">
+            <h1>Effect Classes</h1>
+            <div class="head">These are the effect classes used in button.css buttons. They're used to enhance buttons.
+                Buttons will still work without these classes.</div>
+        </div>
+        <div class="container">
+            <br>
+            <hr>
+            <br>
+        </div>
+        <div class="container">
+            <h2>Scaling</h2>
+            <p class="head">Enlarges the button on hover and minimizes on click.</p>
+            <button class="bprimary scale">Primary</button>
+            <button class="bsecondary scale">Secondary</button>
+            <button class="bsuccess scale">Success</button>
+            <button class="bdanger scale">Danger</button>
+            <button class="bwarning scale">Warning</button>
+            <button class="binfo scale">Info</button>
+            <button class="blight scale">Light</button>
+            <button class="bdark scale">Dark</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="bprimary scale"&gt;Primary&lt;/button&gt;
+                <br>
+                &lt;button class="bsecondary scale"&gt;Secondary&lt;/button&gt;
+                <br>
+                &lt;button class="bsuccess scale"&gt;Success&lt;/button&gt;
+                <br>
+                &lt;button class="bdanger scale"&gt;Danger&lt;/button&gt;
+                <br>
+                &lt;button class="bwarning scale"&gt;Warning&lt;/button&gt;
+                <br>
+                &lt;button class="binfo scale"&gt;Info&lt;/button&gt;
+                <br>
+                &lt;button class="blight scale"&gt;Light&lt;/button&gt;
+                <br>
+                &lt;button class="bdark scale"&gt;Dark&lt;/button&gt;
+            </div>
+        </div>
+        <div class="container">
+            <br>
+            <hr>
+            <br>
+        </div>
+        <div class="container">
+            <h2>Sizing</h2>
+            <p class="head">Change the size of the buttons.</p>
+            <button class="bprimary bxlg">Extra Large - .bxlg</button>
+            <button class="bprimary blg">Large - .blg</button>
+            <button class="bprimary">Regular - No extra class</button>
+            <button class="bprimary bsm">Small - .bsm</button>
+            <button class="bprimary bxsm">Extra Small - .bxsm</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="bprimary bxlg"&gt;Extra Large - .bxlg&lt;/button&gt;
+                <br>
+                &lt;button class="bprimary blg"&gt;Large - .blg&lt;/button&gt;
+                <br>
+                &lt;button class="bprimary"&gt;Regular - No extra class&lt;/button&gt;
+                <br>
+                &lt;button class="bprimary bsm"&gt;Small - .bsm&lt;/button&gt;
+                <br>
+                &lt;button class="bprimary bxsm"&gt;Extra Small - .bxsm&lt;/button&gt;
+            </div>
+        </div>
+        <div class="container">
+            <br>
+            <hr>
+            <br>
+        </div>
+        <div class="container">
+            <h2>Border Radius</h2>
+            <p class="head">Less Border Radius</p>
+            <button class="bprimary lb">Primary</button>
+            <button class="bsecondary lb">Secondary</button>
+            <button class="bsuccess lb">Success</button>
+            <button class="bdanger lb">Danger</button>
+            <button class="bwarning lb">Warning</button>
+            <button class="binfo lb">Info</button>
+            <button class="blight lb">Light</button>
+            <button class="bdark lb">Dark</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="bprimary lb"&gt;Primary&lt;/button&gt;
+                <br>
+                &lt;button class="bsecondary lb"&gt;Secondary&lt;/button&gt;
+                <br>
+                &lt;button class="bsuccess lb"&gt;Success&lt;/button&gt;
+                <br>
+                &lt;button class="bdanger lb"&gt;Danger&lt;/button&gt;
+                <br>
+                &lt;button class="bwarning lb"&gt;Warning&lt;/button&gt;
+                <br>
+                &lt;button class="binfo lb"&gt;Info&lt;/button&gt;
+                <br>
+                &lt;button class="blight lb"&gt;Light&lt;/button&gt;
+                <br>
+                &lt;button class="bdark lb"&gt;Dark&lt;/button&gt;
+            </div>
+            <p class="head">Lesser Border Radius</p>
+            <button class="bprimary lb1">Primary</button>
+            <button class="bsecondary lb1">Secondary</button>
+            <button class="bsuccess lb1">Success</button>
+            <button class="bdanger lb1">Danger</button>
+            <button class="bwarning lb1">Warning</button>
+            <button class="binfo lb1">Info</button>
+            <button class="blight lb1">Light</button>
+            <button class="bdark lb1">Dark</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="bprimary lb1"&gt;Primary&lt;/button&gt;
+                <br>
+                &lt;button class="bsecondary lb1"&gt;Secondary&lt;/button&gt;
+                <br>
+                &lt;button class="bsuccess lb1"&gt;Success&lt;/button&gt;
+                <br>
+                &lt;button class="bdanger lb1"&gt;Danger&lt;/button&gt;
+                <br>
+                &lt;button class="bwarning lb1"&gt;Warning&lt;/button&gt;
+                <br>
+                &lt;button class="binfo lb1"&gt;Info&lt;/button&gt;
+                <br>
+                &lt;button class="blight lb1"&gt;Light&lt;/button&gt;
+                <br>
+                &lt;button class="bdark lb1"&gt;Dark&lt;/button&gt;
+            </div>
+        </div>
+        <div class="container">
+            <br>
+            <hr>
+            <br>
+        </div>
+        <div class="container">
+            <h2>Shadow Buttons</h2>
+            <p class="head">Add a shadow on your buttons</p>
+            <button class="bprimary sha">Primary</button>
+            <button class="bsecondary sha">Secondary</button>
+            <button class="bsuccess sha">Success</button>
+            <button class="bdanger sha">Danger</button>
+            <button class="bwarning sha">Warning</button>
+            <button class="binfo sha">Info</button>
+            <button class="blight sha">Light</button>
+            <button class="bdark sha">Dark</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="bprimary sha"&gt;Primary&lt;/button&gt;
+                <br>
+                &lt;button class="bsecondary sha"&gt;Secondary&lt;/button&gt;
+                <br>
+                &lt;button class="bsuccess sha"&gt;Success&lt;/button&gt;
+                <br>
+                &lt;button class="bdanger sha"&gt;Danger&lt;/button&gt;
+                <br>
+                &lt;button class="bwarning sha"&gt;Warning&lt;/button&gt;
+                <br>
+                &lt;button class="binfo sha"&gt;Info&lt;/button&gt;
+                <br>
+                &lt;button class="blight sha"&gt;Light&lt;/button&gt;
+                <br>
+                &lt;button class="bdark sha"&gt;Dark&lt;/button&gt;
+            </div>
+            <p class="head">More Shadows</p>
+            <button class="bprimary shalg">Primary</button>
+            <button class="bsecondary shalg">Secondary</button>
+            <button class="bsuccess shalg">Success</button>
+            <button class="bdanger shalg">Danger</button>
+            <button class="bwarning shalg">Warning</button>
+            <button class="binfo shalg">Info</button>
+            <button class="blight shalg">Light</button>
+            <button class="bdark shalg">Dark</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="bprimary shalg"&gt;Primary&lt;/button&gt;
+                <br>
+                &lt;button class="bsecondary shalg"&gt;Secondary&lt;/button&gt;
+                <br>
+                &lt;button class="bsuccess shalg"&gt;Success&lt;/button&gt;
+                <br>
+                &lt;button class="bdanger shalg"&gt;Danger&lt;/button&gt;
+                <br>
+                &lt;button class="bwarning shalg"&gt;Warning&lt;/button&gt;
+                <br>
+                &lt;button class="binfo shalg"&gt;Info&lt;/button&gt;
+                <br>
+                &lt;button class="blight shalg"&gt;Light&lt;/button&gt;
+                <br>
+                &lt;button class="bdark shalg"&gt;Dark&lt;/button&gt;
+            </div>
+            <p class="head">Less Shadows</p>
+            <button class="bprimary shasm">Primary</button>
+            <button class="bsecondary shasm">Secondary</button>
+            <button class="bsuccess shasm">Success</button>
+            <button class="bdanger shasm">Danger</button>
+            <button class="bwarning shasm">Warning</button>
+            <button class="binfo shasm">Info</button>
+            <button class="blight shasm">Light</button>
+            <button class="bdark shasm">Dark</button>
+            <div class="codeh w3-code htmlHigh">
+                &lt;button class="bprimary shasm"&gt;Primary&lt;/button&gt;
+                <br>
+                &lt;button class="bsecondary shasm"&gt;Secondary&lt;/button&gt;
+                <br>
+                &lt;button class="bsuccess shasm"&gt;Success&lt;/button&gt;
+                <br>
+                &lt;button class="bdanger shasm"&gt;Danger&lt;/button&gt;
+                <br>
+                &lt;button class="bwarning shasm"&gt;Warning&lt;/button&gt;
+                <br>
+                &lt;button class="binfo shasm"&gt;Info&lt;/button&gt;
+                <br>
+                &lt;button class="blight shasm"&gt;Light&lt;/button&gt;
+                <br>
+                &lt;button class="bdark shasm"&gt;Dark&lt;/button&gt;
+            </div>
+        </div>
+        <div class="container">
+            <br>
+            <hr>
+            <br>
+        </div>
+        <div class="container">
+            <h2>Thank you for taking the time to read the documentation! You can also contribute to this project via the
+                Github Repository.</h2>
             <p class="head">Now go ahead and create great projects using this library!
                 <br>
-                 Also, check out LitCSS, a CSS library that makes your CSS life easier.</p>
-            <a class="bdark scale blg" target="_blank" href="https://github.com/realtechnerd/button.css">Check out the Github Repository!</a>
-            <a class="lgbinfo scale blg" href="https://realtechnerd.github.io/button.css/" target="_blank">Early Access Preview</a>
-            <a class="lgbdanger scale blg"href="https://advaithm26.github.io/litcss.html" target="_blank">LitCSS</a>
+                Also, check out LitCSS, a CSS library that makes your CSS life easier.
+            </p>
+            <a class="bdark scale blg" target="_blank" href="https://github.com/realtechnerd/button.css">Check out the
+                Github Repository!</a>
+            <a class="lgbinfo scale blg" href="https://realtechnerd.github.io/button.css/" target="_blank">Early Access
+                Preview</a>
+            <a class="lgbdanger scale blg" href="https://advaithm26.github.io/litcss.html" target="_blank">LitCSS</a>
         </div>
-        </div>
+    </div>
     <br>
 
     <div w3-include-html="../assets/footer.html"></div>
     <script src="https://www.w3schools.com/lib/w3codecolor.js"></script>
 
-    </body>
-</html>
+</body>
 
+</html>

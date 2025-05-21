@@ -1,82 +1,93 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>button.css</title>
-    <!--SCRIPTS-->
-    <script src="../assets/scripting.js"></script>
-    <link rel="stylesheet" href='../style.css'> 
-    <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
-    <link rel='icon' href='../assets/miscimages/rtnlog.jpeg'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <!--CODE HIGHLIGHTING-->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <!-- and it's easy to individually load additional languages -->
-    <script charset="UTF-8"
-    src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/go.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175443294-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'UA-175443294-1');
-    </script>
-  </head>
-    <body onload="includeHTML();w3CodeColor();">
-        <div class='sticky-top my-0'w3-include-html="../assets/navbar.html"></div>
-      <br>
-        <div class="container">
-          <p>Version 0.0.1 (Pre-Alpha)</p>
-        <div class="jumbotron buttoncss">
-            <h1 class="display-4">button.css</h1>
-            <p class="lead">A CSS Library dedicated to buttons.</p>
-            <hr class="my-4">
-            <p class="lead">
-              <a class="bprimary blg scale" href="docs.html" role="button">Docs</a>
-              <a class="bdark blg scale" target="_blank" href="https://github.com/realtechnerd/button.css">Github</a>
-            </p>
-          </div>
-        </div>
+<head>
+  <title>button.css</title>
+  <!--SCRIPTS-->
+  <script src="../assets/scripting.js"></script>
+  <link rel="stylesheet" href='../style.css'>
+  <script src="https://cdn.jsdelivr.net/gh/realtechnerd/deprecated-banner@master/deprecated.js"></script>
+  <!--BOOTSTRAP-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel='icon' href='../assets/miscimages/rtnlog.jpeg'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <!--CODE HIGHLIGHTING-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- and it's easy to individually load additional languages -->
+  <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/go.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175443294-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-        <div class='container'>
-            <h2>Quick Start</h2>
-            <br>
-            <h4>Place this in the <code class="htmlHigh">&lt;head&gt;</code> section of your HTML file.</h4>
-            <div class="codeh w3-code htmlHigh">
-                &lt;link rel='stylesheet' href="https://realtechnerd.github.io/button.css/style.css"/&gt;
-            </div>
-            <br>
-            <h4>CSS <code class="codeh cssHigh">@import</code></h4>
-            <h4>You can place this in the main CSS file.</h4>
-            <div class="codeh w3-code cssHigh">
-                @import url(https://realtechnerd.github.io/button.css/style.css);
-            </div>
-            <br>
-            <hr>
-            <br>
-            <h4>For faster load times, you can use the CDN</h4>
-            <h4>Place this in the <code class="htmlHigh">&lt;head&gt;</code> section of your HTML file.</h4>
-            <div class="codeh w3-code htmlHigh">
-              &lt;link href="https://cdn.jsdelivr.net/gh/realtechnerd/button.css@master/style.min.css" crossorigin="anonymous"/&gt;
-            </div>
-            <br>
-            <h4>CSS <code class="codeh cssHigh">@import</code></h4>
-            <h4>You can place this in the main CSS file.</h4>
-            <div class="codeh w3-code cssHigh">
-                @import url(https://cdn.jsdelivr.net/gh/realtechnerd/button.css@master/style.min.css);
-            </div>
-        </div>
-    
+    gtag('config', 'UA-175443294-1');
+  </script>
+</head>
 
-    <div w3-include-html="../assets/footer.html"></div>
-    <script src="https://www.w3schools.com/lib/w3codecolor.js"></script>
+<body onload="includeHTML();w3CodeColor();">
+  <div class='sticky-top my-0' w3-include-html="../assets/navbar.html"></div>
+  <br>
+  <div class="container">
+    <p>Version 0.0.1 (Pre-Alpha)</p>
+    <div class="jumbotron buttoncss">
+      <h1 class="display-4">button.css</h1>
+      <p class="lead">A CSS Library dedicated to buttons.</p>
+      <hr class="my-4">
+      <p class="lead">
+        <a class="bprimary blg scale" href="docs.html" role="button">Docs</a>
+        <a class="bdark blg scale" target="_blank" href="https://github.com/realtechnerd/button.css">Github</a>
+      </p>
+    </div>
+  </div>
 
-    </body>
+  <div class='container'>
+    <h2>Quick Start</h2>
+    <br>
+    <h4>Place this in the <code class="htmlHigh">&lt;head&gt;</code> section of your HTML file.</h4>
+    <div class="codeh w3-code htmlHigh">
+      &lt;link rel='stylesheet' href="https://realtechnerd.github.io/button.css/style.css"/&gt;
+    </div>
+    <br>
+    <h4>CSS <code class="codeh cssHigh">@import</code></h4>
+    <h4>You can place this in the main CSS file.</h4>
+    <div class="codeh w3-code cssHigh">
+      @import url(https://realtechnerd.github.io/button.css/style.css);
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h4>For faster load times, you can use the CDN</h4>
+    <h4>Place this in the <code class="htmlHigh">&lt;head&gt;</code> section of your HTML file.</h4>
+    <div class="codeh w3-code htmlHigh">
+      &lt;link href="https://cdn.jsdelivr.net/gh/realtechnerd/button.css@master/style.min.css"
+      crossorigin="anonymous"/&gt;
+    </div>
+    <br>
+    <h4>CSS <code class="codeh cssHigh">@import</code></h4>
+    <h4>You can place this in the main CSS file.</h4>
+    <div class="codeh w3-code cssHigh">
+      @import url(https://cdn.jsdelivr.net/gh/realtechnerd/button.css@master/style.min.css);
+    </div>
+  </div>
+
+
+  <div w3-include-html="../assets/footer.html"></div>
+  <script src="https://www.w3schools.com/lib/w3codecolor.js"></script>
+
+</body>
+
 </html>
