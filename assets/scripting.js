@@ -79,7 +79,6 @@ window.addEventListener("load", function () {
     const banner = document.createElement("div");
     banner.innerHTML = `
       <div style="
-        width: 100%;
         background: linear-gradient(to right, #121212, #142a4e);
         color: oklch(87.2% .01 258.338);
         padding: 13px;
